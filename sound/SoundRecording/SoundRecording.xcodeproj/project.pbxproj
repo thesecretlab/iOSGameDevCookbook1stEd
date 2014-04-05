@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687A5E9717078E6D00C836CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A5E9617078E6D00C836CA /* UIKit.framework */; };
+		687A5E9917078E6D00C836CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A5E9817078E6D00C836CA /* Foundation.framework */; };
+		687A5E9B17078E6D00C836CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A5E9A17078E6D00C836CA /* CoreGraphics.framework */; };
+		687A5EA117078E6D00C836CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 687A5E9F17078E6D00C836CA /* InfoPlist.strings */; };
+		687A5EA317078E6D00C836CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A5EA217078E6D00C836CA /* main.m */; };
+		687A5EA717078E6D00C836CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A5EA617078E6D00C836CA /* AppDelegate.m */; };
+		687A5EA917078E6D00C836CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 687A5EA817078E6D00C836CA /* Default.png */; };
+		687A5EAB17078E6D00C836CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687A5EAA17078E6D00C836CA /* Default@2x.png */; };
+		687A5EAD17078E6D00C836CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687A5EAC17078E6D00C836CA /* Default-568h@2x.png */; };
+		687A5EB017078E6D00C836CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A5EAF17078E6D00C836CA /* ViewController.m */; };
+		687A5EB317078E6D00C836CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A5EB117078E6D00C836CA /* ViewController.xib */; };
+		687A5EBA17078E7D00C836CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A5EB917078E7D00C836CA /* AVFoundation.framework */; };
+		687A5EC317078E8B00C836CA /* TestSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 687A5EBF17078E8B00C836CA /* TestSound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		687A5E9317078E6D00C836CA /* SoundRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A5E9617078E6D00C836CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		687A5E9817078E6D00C836CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		687A5E9A17078E6D00C836CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		687A5E9E17078E6D00C836CA /* SoundRecording-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundRecording-Info.plist"; sourceTree = "<group>"; };
+		687A5EA017078E6D00C836CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		687A5EA217078E6D00C836CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		687A5EA417078E6D00C836CA /* SoundRecording-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundRecording-Prefix.pch"; sourceTree = "<group>"; };
+		687A5EA517078E6D00C836CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		687A5EA617078E6D00C836CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		687A5EA817078E6D00C836CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		687A5EAA17078E6D00C836CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		687A5EAC17078E6D00C836CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		687A5EAE17078E6D00C836CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		687A5EAF17078E6D00C836CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		687A5EB217078E6D00C836CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		687A5EB917078E7D00C836CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		687A5EBF17078E8B00C836CA /* TestSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TestSound.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687A5E9017078E6D00C836CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A5EBA17078E7D00C836CA /* AVFoundation.framework in Frameworks */,
+				687A5E9717078E6D00C836CA /* UIKit.framework in Frameworks */,
+				687A5E9917078E6D00C836CA /* Foundation.framework in Frameworks */,
+				687A5E9B17078E6D00C836CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687A5E8A17078E6D00C836CA = {
+			isa = PBXGroup;
+			children = (
+				687A5EBB17078E8B00C836CA /* Sounds */,
+				687A5E9C17078E6D00C836CA /* SoundRecording */,
+				687A5E9517078E6D00C836CA /* Frameworks */,
+				687A5E9417078E6D00C836CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687A5E9417078E6D00C836CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687A5E9317078E6D00C836CA /* SoundRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687A5E9517078E6D00C836CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687A5EB917078E7D00C836CA /* AVFoundation.framework */,
+				687A5E9617078E6D00C836CA /* UIKit.framework */,
+				687A5E9817078E6D00C836CA /* Foundation.framework */,
+				687A5E9A17078E6D00C836CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687A5E9C17078E6D00C836CA /* SoundRecording */ = {
+			isa = PBXGroup;
+			children = (
+				687A5EA517078E6D00C836CA /* AppDelegate.h */,
+				687A5EA617078E6D00C836CA /* AppDelegate.m */,
+				687A5EAE17078E6D00C836CA /* ViewController.h */,
+				687A5EAF17078E6D00C836CA /* ViewController.m */,
+				687A5EB117078E6D00C836CA /* ViewController.xib */,
+				687A5E9D17078E6D00C836CA /* Supporting Files */,
+			);
+			path = SoundRecording;
+			sourceTree = "<group>";
+		};
+		687A5E9D17078E6D00C836CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				687A5E9E17078E6D00C836CA /* SoundRecording-Info.plist */,
+				687A5E9F17078E6D00C836CA /* InfoPlist.strings */,
+				687A5EA217078E6D00C836CA /* main.m */,
+				687A5EA417078E6D00C836CA /* SoundRecording-Prefix.pch */,
+				687A5EA817078E6D00C836CA /* Default.png */,
+				687A5EAA17078E6D00C836CA /* Default@2x.png */,
+				687A5EAC17078E6D00C836CA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		687A5EBB17078E8B00C836CA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				687A5EBF17078E8B00C836CA /* TestSound.wav */,
+			);
+			name = Sounds;
+			path = ../Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687A5E9217078E6D00C836CA /* SoundRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687A5EB617078E6D00C836CA /* Build configuration list for PBXNativeTarget "SoundRecording" */;
+			buildPhases = (
+				687A5E8F17078E6D00C836CA /* Sources */,
+				687A5E9017078E6D00C836CA /* Frameworks */,
+				687A5E9117078E6D00C836CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundRecording;
+			productName = SoundRecording;
+			productReference = 687A5E9317078E6D00C836CA /* SoundRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687A5E8B17078E6D00C836CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 687A5E8E17078E6D00C836CA /* Build configuration list for PBXProject "SoundRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 687A5E8A17078E6D00C836CA;
+			productRefGroup = 687A5E9417078E6D00C836CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687A5E9217078E6D00C836CA /* SoundRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687A5E9117078E6D00C836CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A5EA117078E6D00C836CA /* InfoPlist.strings in Resources */,
+				687A5EA917078E6D00C836CA /* Default.png in Resources */,
+				687A5EAB17078E6D00C836CA /* Default@2x.png in Resources */,
+				687A5EAD17078E6D00C836CA /* Default-568h@2x.png in Resources */,
+				687A5EB317078E6D00C836CA /* ViewController.xib in Resources */,
+				687A5EC317078E8B00C836CA /* TestSound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687A5E8F17078E6D00C836CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A5EA317078E6D00C836CA /* main.m in Sources */,
+				687A5EA717078E6D00C836CA /* AppDelegate.m in Sources */,
+				687A5EB017078E6D00C836CA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		687A5E9F17078E6D00C836CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687A5EA017078E6D00C836CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		687A5EB117078E6D00C836CA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687A5EB217078E6D00C836CA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687A5EB417078E6D00C836CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		687A5EB517078E6D00C836CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687A5EB717078E6D00C836CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecording/SoundRecording-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecording/SoundRecording-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		687A5EB817078E6D00C836CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundRecording/SoundRecording-Prefix.pch";
+				INFOPLIST_FILE = "SoundRecording/SoundRecording-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687A5E8E17078E6D00C836CA /* Build configuration list for PBXProject "SoundRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A5EB417078E6D00C836CA /* Debug */,
+				687A5EB517078E6D00C836CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687A5EB617078E6D00C836CA /* Build configuration list for PBXNativeTarget "SoundRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A5EB717078E6D00C836CA /* Debug */,
+				687A5EB817078E6D00C836CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687A5E8B17078E6D00C836CA /* Project object */;
+}

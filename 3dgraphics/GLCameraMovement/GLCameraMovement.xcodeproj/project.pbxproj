@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682E98FA173A1D5C00278F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E98F9173A1D5C00278F6B /* UIKit.framework */; };
+		682E98FC173A1D5C00278F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E98FB173A1D5C00278F6B /* Foundation.framework */; };
+		682E98FE173A1D5C00278F6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E98FD173A1D5C00278F6B /* CoreGraphics.framework */; };
+		682E9904173A1D5C00278F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682E9902173A1D5C00278F6B /* InfoPlist.strings */; };
+		682E9906173A1D5C00278F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 682E9905173A1D5C00278F6B /* main.m */; };
+		682E990A173A1D5C00278F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682E9909173A1D5C00278F6B /* AppDelegate.m */; };
+		682E990C173A1D5C00278F6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 682E990B173A1D5C00278F6B /* Default.png */; };
+		682E990E173A1D5C00278F6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682E990D173A1D5C00278F6B /* Default@2x.png */; };
+		682E9910173A1D5C00278F6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682E990F173A1D5C00278F6B /* Default-568h@2x.png */; };
+		682E9913173A1D5C00278F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682E9912173A1D5C00278F6B /* ViewController.m */; };
+		682E9916173A1D5C00278F6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682E9914173A1D5C00278F6B /* ViewController.xib */; };
+		682E991E173A1DA900278F6B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E991C173A1DA900278F6B /* GLKit.framework */; };
+		682E991F173A1DA900278F6B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E991D173A1DA900278F6B /* OpenGLES.framework */; };
+		682E9923173A1E4100278F6B /* Texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 682E9922173A1E4100278F6B /* Texture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		682E98F6173A1D5C00278F6B /* GLCameraMovement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLCameraMovement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		682E98F9173A1D5C00278F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		682E98FB173A1D5C00278F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		682E98FD173A1D5C00278F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		682E9901173A1D5C00278F6B /* GLCameraMovement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLCameraMovement-Info.plist"; sourceTree = "<group>"; };
+		682E9903173A1D5C00278F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		682E9905173A1D5C00278F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		682E9907173A1D5C00278F6B /* GLCameraMovement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLCameraMovement-Prefix.pch"; sourceTree = "<group>"; };
+		682E9908173A1D5C00278F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		682E9909173A1D5C00278F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		682E990B173A1D5C00278F6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		682E990D173A1D5C00278F6B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		682E990F173A1D5C00278F6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		682E9911173A1D5C00278F6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		682E9912173A1D5C00278F6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		682E9915173A1D5C00278F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		682E991C173A1DA900278F6B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		682E991D173A1DA900278F6B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		682E9922173A1E4100278F6B /* Texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682E98F3173A1D5C00278F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682E991E173A1DA900278F6B /* GLKit.framework in Frameworks */,
+				682E991F173A1DA900278F6B /* OpenGLES.framework in Frameworks */,
+				682E98FA173A1D5C00278F6B /* UIKit.framework in Frameworks */,
+				682E98FC173A1D5C00278F6B /* Foundation.framework in Frameworks */,
+				682E98FE173A1D5C00278F6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682E98ED173A1D5C00278F6B = {
+			isa = PBXGroup;
+			children = (
+				682E9922173A1E4100278F6B /* Texture.png */,
+				682E991C173A1DA900278F6B /* GLKit.framework */,
+				682E991D173A1DA900278F6B /* OpenGLES.framework */,
+				682E98FF173A1D5C00278F6B /* GLCameraMovement */,
+				682E98F8173A1D5C00278F6B /* Frameworks */,
+				682E98F7173A1D5C00278F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682E98F7173A1D5C00278F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682E98F6173A1D5C00278F6B /* GLCameraMovement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682E98F8173A1D5C00278F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682E98F9173A1D5C00278F6B /* UIKit.framework */,
+				682E98FB173A1D5C00278F6B /* Foundation.framework */,
+				682E98FD173A1D5C00278F6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		682E98FF173A1D5C00278F6B /* GLCameraMovement */ = {
+			isa = PBXGroup;
+			children = (
+				682E9908173A1D5C00278F6B /* AppDelegate.h */,
+				682E9909173A1D5C00278F6B /* AppDelegate.m */,
+				682E9911173A1D5C00278F6B /* ViewController.h */,
+				682E9912173A1D5C00278F6B /* ViewController.m */,
+				682E9914173A1D5C00278F6B /* ViewController.xib */,
+				682E9900173A1D5C00278F6B /* Supporting Files */,
+			);
+			path = GLCameraMovement;
+			sourceTree = "<group>";
+		};
+		682E9900173A1D5C00278F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682E9901173A1D5C00278F6B /* GLCameraMovement-Info.plist */,
+				682E9902173A1D5C00278F6B /* InfoPlist.strings */,
+				682E9905173A1D5C00278F6B /* main.m */,
+				682E9907173A1D5C00278F6B /* GLCameraMovement-Prefix.pch */,
+				682E990B173A1D5C00278F6B /* Default.png */,
+				682E990D173A1D5C00278F6B /* Default@2x.png */,
+				682E990F173A1D5C00278F6B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682E98F5173A1D5C00278F6B /* GLCameraMovement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682E9919173A1D5C00278F6B /* Build configuration list for PBXNativeTarget "GLCameraMovement" */;
+			buildPhases = (
+				682E98F2173A1D5C00278F6B /* Sources */,
+				682E98F3173A1D5C00278F6B /* Frameworks */,
+				682E98F4173A1D5C00278F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLCameraMovement;
+			productName = GLCameraMovement;
+			productReference = 682E98F6173A1D5C00278F6B /* GLCameraMovement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682E98EE173A1D5C00278F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 682E98F1173A1D5C00278F6B /* Build configuration list for PBXProject "GLCameraMovement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 682E98ED173A1D5C00278F6B;
+			productRefGroup = 682E98F7173A1D5C00278F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682E98F5173A1D5C00278F6B /* GLCameraMovement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682E98F4173A1D5C00278F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682E9904173A1D5C00278F6B /* InfoPlist.strings in Resources */,
+				682E990C173A1D5C00278F6B /* Default.png in Resources */,
+				682E990E173A1D5C00278F6B /* Default@2x.png in Resources */,
+				682E9910173A1D5C00278F6B /* Default-568h@2x.png in Resources */,
+				682E9916173A1D5C00278F6B /* ViewController.xib in Resources */,
+				682E9923173A1E4100278F6B /* Texture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682E98F2173A1D5C00278F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682E9906173A1D5C00278F6B /* main.m in Sources */,
+				682E990A173A1D5C00278F6B /* AppDelegate.m in Sources */,
+				682E9913173A1D5C00278F6B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		682E9902173A1D5C00278F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682E9903173A1D5C00278F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		682E9914173A1D5C00278F6B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682E9915173A1D5C00278F6B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682E9917173A1D5C00278F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		682E9918173A1D5C00278F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		682E991A173A1D5C00278F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLCameraMovement/GLCameraMovement-Prefix.pch";
+				INFOPLIST_FILE = "GLCameraMovement/GLCameraMovement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		682E991B173A1D5C00278F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLCameraMovement/GLCameraMovement-Prefix.pch";
+				INFOPLIST_FILE = "GLCameraMovement/GLCameraMovement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682E98F1173A1D5C00278F6B /* Build configuration list for PBXProject "GLCameraMovement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682E9917173A1D5C00278F6B /* Debug */,
+				682E9918173A1D5C00278F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682E9919173A1D5C00278F6B /* Build configuration list for PBXNativeTarget "GLCameraMovement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682E991A173A1D5C00278F6B /* Debug */,
+				682E991B173A1D5C00278F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682E98EE173A1D5C00278F6B /* Project object */;
+}

@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6894932017DD74ED0078DBFF /* Spaceships.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6894931F17DD74ED0078DBFF /* Spaceships.atlas */; };
+		68F3607717DD55260029AC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3607617DD55260029AC91 /* Foundation.framework */; };
+		68F3607917DD55260029AC91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3607817DD55260029AC91 /* CoreGraphics.framework */; };
+		68F3607B17DD55260029AC91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3607A17DD55260029AC91 /* UIKit.framework */; };
+		68F3608117DD55260029AC91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68F3607F17DD55260029AC91 /* InfoPlist.strings */; };
+		68F3608317DD55260029AC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3608217DD55260029AC91 /* main.m */; };
+		68F3608717DD55260029AC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3608617DD55260029AC91 /* AppDelegate.m */; };
+		68F3608D17DD55260029AC91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3608C17DD55260029AC91 /* ViewController.m */; };
+		68F3608F17DD55260029AC91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F3608E17DD55260029AC91 /* Images.xcassets */; };
+		68F3609617DD55260029AC91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3609517DD55260029AC91 /* XCTest.framework */; };
+		68F3609717DD55260029AC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3607617DD55260029AC91 /* Foundation.framework */; };
+		68F3609817DD55260029AC91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F3607A17DD55260029AC91 /* UIKit.framework */; };
+		68F360A017DD55260029AC91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68F3609E17DD55260029AC91 /* InfoPlist.strings */; };
+		68F360A217DD55260029AC91 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F360A117DD55260029AC91 /* SpriteWalkthroughTests.m */; };
+		68F360AD17DD56870029AC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F360AC17DD56580029AC91 /* Main.storyboard */; };
+		68F360AF17DD56AE0029AC91 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F360AE17DD56AE0029AC91 /* SpriteKit.framework */; };
+		68F360B217DD58400029AC91 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F360B117DD58400029AC91 /* HelloScene.m */; };
+		68F360B517DD5E6F0029AC91 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F360B417DD5E6F0029AC91 /* SpaceshipScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68F3609917DD55260029AC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F3606B17DD55260029AC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F3607217DD55260029AC91;
+			remoteInfo = SpriteWalkthrough;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6894931F17DD74ED0078DBFF /* Spaceships.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Spaceships.atlas; path = ../../Sprites/Spaceships.atlas; sourceTree = "<group>"; };
+		68F3607317DD55260029AC91 /* SpriteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F3607617DD55260029AC91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68F3607817DD55260029AC91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68F3607A17DD55260029AC91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68F3607E17DD55260029AC91 /* SpriteWalkthrough-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthrough-Info.plist"; sourceTree = "<group>"; };
+		68F3608017DD55260029AC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68F3608217DD55260029AC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68F3608417DD55260029AC91 /* SpriteWalkthrough-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteWalkthrough-Prefix.pch"; sourceTree = "<group>"; };
+		68F3608517DD55260029AC91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68F3608617DD55260029AC91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68F3608B17DD55260029AC91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68F3608C17DD55260029AC91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68F3608E17DD55260029AC91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68F3609417DD55260029AC91 /* SpriteWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F3609517DD55260029AC91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		68F3609D17DD55260029AC91 /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
+		68F3609F17DD55260029AC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68F360A117DD55260029AC91 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		68F360AC17DD56580029AC91 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		68F360AE17DD56AE0029AC91 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		68F360B017DD58400029AC91 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		68F360B117DD58400029AC91 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		68F360B317DD5E6F0029AC91 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		68F360B417DD5E6F0029AC91 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F3607017DD55260029AC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F360AF17DD56AE0029AC91 /* SpriteKit.framework in Frameworks */,
+				68F3607917DD55260029AC91 /* CoreGraphics.framework in Frameworks */,
+				68F3607B17DD55260029AC91 /* UIKit.framework in Frameworks */,
+				68F3607717DD55260029AC91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F3609117DD55260029AC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F3609617DD55260029AC91 /* XCTest.framework in Frameworks */,
+				68F3609817DD55260029AC91 /* UIKit.framework in Frameworks */,
+				68F3609717DD55260029AC91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F3606A17DD55260029AC91 = {
+			isa = PBXGroup;
+			children = (
+				68F3607C17DD55260029AC91 /* SpriteWalkthrough */,
+				68F3609B17DD55260029AC91 /* SpriteWalkthroughTests */,
+				68F3607517DD55260029AC91 /* Frameworks */,
+				68F3607417DD55260029AC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F3607417DD55260029AC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F3607317DD55260029AC91 /* SpriteWalkthrough.app */,
+				68F3609417DD55260029AC91 /* SpriteWalkthroughTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F3607517DD55260029AC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F360AE17DD56AE0029AC91 /* SpriteKit.framework */,
+				68F3607617DD55260029AC91 /* Foundation.framework */,
+				68F3607817DD55260029AC91 /* CoreGraphics.framework */,
+				68F3607A17DD55260029AC91 /* UIKit.framework */,
+				68F3609517DD55260029AC91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F3607C17DD55260029AC91 /* SpriteWalkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				6894931F17DD74ED0078DBFF /* Spaceships.atlas */,
+				68F360B317DD5E6F0029AC91 /* SpaceshipScene.h */,
+				68F360B417DD5E6F0029AC91 /* SpaceshipScene.m */,
+				68F360AC17DD56580029AC91 /* Main.storyboard */,
+				68F3608517DD55260029AC91 /* AppDelegate.h */,
+				68F3608617DD55260029AC91 /* AppDelegate.m */,
+				68F3608B17DD55260029AC91 /* ViewController.h */,
+				68F3608C17DD55260029AC91 /* ViewController.m */,
+				68F360B017DD58400029AC91 /* HelloScene.h */,
+				68F360B117DD58400029AC91 /* HelloScene.m */,
+				68F3608E17DD55260029AC91 /* Images.xcassets */,
+				68F3607D17DD55260029AC91 /* Supporting Files */,
+			);
+			path = SpriteWalkthrough;
+			sourceTree = "<group>";
+		};
+		68F3607D17DD55260029AC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F3607E17DD55260029AC91 /* SpriteWalkthrough-Info.plist */,
+				68F3607F17DD55260029AC91 /* InfoPlist.strings */,
+				68F3608217DD55260029AC91 /* main.m */,
+				68F3608417DD55260029AC91 /* SpriteWalkthrough-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68F3609B17DD55260029AC91 /* SpriteWalkthroughTests */ = {
+			isa = PBXGroup;
+			children = (
+				68F360A117DD55260029AC91 /* SpriteWalkthroughTests.m */,
+				68F3609C17DD55260029AC91 /* Supporting Files */,
+			);
+			path = SpriteWalkthroughTests;
+			sourceTree = "<group>";
+		};
+		68F3609C17DD55260029AC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F3609D17DD55260029AC91 /* SpriteWalkthroughTests-Info.plist */,
+				68F3609E17DD55260029AC91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F3607217DD55260029AC91 /* SpriteWalkthrough */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F360A517DD55260029AC91 /* Build configuration list for PBXNativeTarget "SpriteWalkthrough" */;
+			buildPhases = (
+				68F3606F17DD55260029AC91 /* Sources */,
+				68F3607017DD55260029AC91 /* Frameworks */,
+				68F3607117DD55260029AC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteWalkthrough;
+			productName = SpriteWalkthrough;
+			productReference = 68F3607317DD55260029AC91 /* SpriteWalkthrough.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68F3609317DD55260029AC91 /* SpriteWalkthroughTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F360A817DD55260029AC91 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */;
+			buildPhases = (
+				68F3609017DD55260029AC91 /* Sources */,
+				68F3609117DD55260029AC91 /* Frameworks */,
+				68F3609217DD55260029AC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F3609A17DD55260029AC91 /* PBXTargetDependency */,
+			);
+			name = SpriteWalkthroughTests;
+			productName = SpriteWalkthroughTests;
+			productReference = 68F3609417DD55260029AC91 /* SpriteWalkthroughTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F3606B17DD55260029AC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Secret Lab";
+				TargetAttributes = {
+					68F3609317DD55260029AC91 = {
+						TestTargetID = 68F3607217DD55260029AC91;
+					};
+				};
+			};
+			buildConfigurationList = 68F3606E17DD55260029AC91 /* Build configuration list for PBXProject "SpriteWalkthrough" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68F3606A17DD55260029AC91;
+			productRefGroup = 68F3607417DD55260029AC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F3607217DD55260029AC91 /* SpriteWalkthrough */,
+				68F3609317DD55260029AC91 /* SpriteWalkthroughTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F3607117DD55260029AC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894932017DD74ED0078DBFF /* Spaceships.atlas in Resources */,
+				68F360AD17DD56870029AC91 /* Main.storyboard in Resources */,
+				68F3608F17DD55260029AC91 /* Images.xcassets in Resources */,
+				68F3608117DD55260029AC91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F3609217DD55260029AC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F360A017DD55260029AC91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F3606F17DD55260029AC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F3608D17DD55260029AC91 /* ViewController.m in Sources */,
+				68F360B217DD58400029AC91 /* HelloScene.m in Sources */,
+				68F360B517DD5E6F0029AC91 /* SpaceshipScene.m in Sources */,
+				68F3608717DD55260029AC91 /* AppDelegate.m in Sources */,
+				68F3608317DD55260029AC91 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F3609017DD55260029AC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F360A217DD55260029AC91 /* SpriteWalkthroughTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F3609A17DD55260029AC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F3607217DD55260029AC91 /* SpriteWalkthrough */;
+			targetProxy = 68F3609917DD55260029AC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68F3607F17DD55260029AC91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F3608017DD55260029AC91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68F3609E17DD55260029AC91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F3609F17DD55260029AC91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68F360A317DD55260029AC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+			};
+			name = Debug;
+		};
+		68F360A417DD55260029AC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F360A617DD55260029AC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteWalkthrough/SpriteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpriteWalkthrough/SpriteWalkthrough-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68F360A717DD55260029AC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteWalkthrough/SpriteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpriteWalkthrough/SpriteWalkthrough-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68F360A917DD55260029AC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteWalkthrough.app/SpriteWalkthrough";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteWalkthrough/SpriteWalkthrough-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpriteWalkthroughTests/SpriteWalkthroughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		68F360AA17DD55260029AC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteWalkthrough.app/SpriteWalkthrough";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteWalkthrough/SpriteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpriteWalkthroughTests/SpriteWalkthroughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F3606E17DD55260029AC91 /* Build configuration list for PBXProject "SpriteWalkthrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F360A317DD55260029AC91 /* Debug */,
+				68F360A417DD55260029AC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F360A517DD55260029AC91 /* Build configuration list for PBXNativeTarget "SpriteWalkthrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F360A617DD55260029AC91 /* Debug */,
+				68F360A717DD55260029AC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F360A817DD55260029AC91 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F360A917DD55260029AC91 /* Debug */,
+				68F360AA17DD55260029AC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F3606B17DD55260029AC91 /* Project object */;
+}

@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689A010F1808E7B60039709F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A010E1808E7B60039709F /* Foundation.framework */; };
+		689A01111808E7B60039709F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A01101808E7B60039709F /* CoreGraphics.framework */; };
+		689A01131808E7B60039709F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A01121808E7B60039709F /* UIKit.framework */; };
+		689A01151808E7B60039709F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A01141808E7B60039709F /* SpriteKit.framework */; };
+		689A011B1808E7B60039709F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689A01191808E7B60039709F /* InfoPlist.strings */; };
+		689A011D1808E7B60039709F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A011C1808E7B60039709F /* main.m */; };
+		689A01211808E7B60039709F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A01201808E7B60039709F /* AppDelegate.m */; };
+		689A01241808E7B60039709F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689A01221808E7B60039709F /* Main.storyboard */; };
+		689A01271808E7B60039709F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A01261808E7B60039709F /* ViewController.m */; };
+		689A012A1808E7B60039709F /* PhysicsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A01291808E7B60039709F /* PhysicsScene.m */; };
+		689A012C1808E7B60039709F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 689A012B1808E7B60039709F /* Spaceship.png */; };
+		689A012E1808E7B60039709F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689A012D1808E7B60039709F /* Images.xcassets */; };
+		689A01351808E7B60039709F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A01341808E7B60039709F /* XCTest.framework */; };
+		689A01361808E7B60039709F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A010E1808E7B60039709F /* Foundation.framework */; };
+		689A01371808E7B60039709F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A01121808E7B60039709F /* UIKit.framework */; };
+		689A013F1808E7B60039709F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689A013D1808E7B60039709F /* InfoPlist.strings */; };
+		689A01411808E7B60039709F /* AccelerometerGravityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A01401808E7B60039709F /* AccelerometerGravityTests.m */; };
+		689A014B1808E7C70039709F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A014A1808E7C70039709F /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689A01381808E7B60039709F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689A01031808E7B60039709F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689A010A1808E7B60039709F;
+			remoteInfo = AccelerometerGravity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		689A010B1808E7B60039709F /* AccelerometerGravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerGravity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A010E1808E7B60039709F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		689A01101808E7B60039709F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		689A01121808E7B60039709F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		689A01141808E7B60039709F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		689A01181808E7B60039709F /* AccelerometerGravity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelerometerGravity-Info.plist"; sourceTree = "<group>"; };
+		689A011A1808E7B60039709F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		689A011C1808E7B60039709F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689A011E1808E7B60039709F /* AccelerometerGravity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccelerometerGravity-Prefix.pch"; sourceTree = "<group>"; };
+		689A011F1808E7B60039709F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689A01201808E7B60039709F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689A01231808E7B60039709F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689A01251808E7B60039709F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689A01261808E7B60039709F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		689A01281808E7B60039709F /* PhysicsScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsScene.h; sourceTree = "<group>"; };
+		689A01291808E7B60039709F /* PhysicsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsScene.m; sourceTree = "<group>"; };
+		689A012B1808E7B60039709F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		689A012D1808E7B60039709F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		689A01331808E7B60039709F /* AccelerometerGravityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerGravityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689A01341808E7B60039709F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		689A013C1808E7B60039709F /* AccelerometerGravityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelerometerGravityTests-Info.plist"; sourceTree = "<group>"; };
+		689A013E1808E7B60039709F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		689A01401808E7B60039709F /* AccelerometerGravityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerGravityTests.m; sourceTree = "<group>"; };
+		689A014A1808E7C70039709F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689A01081808E7B60039709F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A014B1808E7C70039709F /* CoreMotion.framework in Frameworks */,
+				689A01111808E7B60039709F /* CoreGraphics.framework in Frameworks */,
+				689A01131808E7B60039709F /* UIKit.framework in Frameworks */,
+				689A01151808E7B60039709F /* SpriteKit.framework in Frameworks */,
+				689A010F1808E7B60039709F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A01301808E7B60039709F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A01351808E7B60039709F /* XCTest.framework in Frameworks */,
+				689A01371808E7B60039709F /* UIKit.framework in Frameworks */,
+				689A01361808E7B60039709F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689A01021808E7B60039709F = {
+			isa = PBXGroup;
+			children = (
+				689A01161808E7B60039709F /* AccelerometerGravity */,
+				689A013A1808E7B60039709F /* AccelerometerGravityTests */,
+				689A010D1808E7B60039709F /* Frameworks */,
+				689A010C1808E7B60039709F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689A010C1808E7B60039709F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689A010B1808E7B60039709F /* AccelerometerGravity.app */,
+				689A01331808E7B60039709F /* AccelerometerGravityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689A010D1808E7B60039709F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689A014A1808E7C70039709F /* CoreMotion.framework */,
+				689A010E1808E7B60039709F /* Foundation.framework */,
+				689A01101808E7B60039709F /* CoreGraphics.framework */,
+				689A01121808E7B60039709F /* UIKit.framework */,
+				689A01141808E7B60039709F /* SpriteKit.framework */,
+				689A01341808E7B60039709F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689A01161808E7B60039709F /* AccelerometerGravity */ = {
+			isa = PBXGroup;
+			children = (
+				689A011F1808E7B60039709F /* AppDelegate.h */,
+				689A01201808E7B60039709F /* AppDelegate.m */,
+				689A01221808E7B60039709F /* Main.storyboard */,
+				689A01251808E7B60039709F /* ViewController.h */,
+				689A01261808E7B60039709F /* ViewController.m */,
+				689A01281808E7B60039709F /* PhysicsScene.h */,
+				689A01291808E7B60039709F /* PhysicsScene.m */,
+				689A012B1808E7B60039709F /* Spaceship.png */,
+				689A012D1808E7B60039709F /* Images.xcassets */,
+				689A01171808E7B60039709F /* Supporting Files */,
+			);
+			path = AccelerometerGravity;
+			sourceTree = "<group>";
+		};
+		689A01171808E7B60039709F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689A01181808E7B60039709F /* AccelerometerGravity-Info.plist */,
+				689A01191808E7B60039709F /* InfoPlist.strings */,
+				689A011C1808E7B60039709F /* main.m */,
+				689A011E1808E7B60039709F /* AccelerometerGravity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		689A013A1808E7B60039709F /* AccelerometerGravityTests */ = {
+			isa = PBXGroup;
+			children = (
+				689A01401808E7B60039709F /* AccelerometerGravityTests.m */,
+				689A013B1808E7B60039709F /* Supporting Files */,
+			);
+			path = AccelerometerGravityTests;
+			sourceTree = "<group>";
+		};
+		689A013B1808E7B60039709F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689A013C1808E7B60039709F /* AccelerometerGravityTests-Info.plist */,
+				689A013D1808E7B60039709F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689A010A1808E7B60039709F /* AccelerometerGravity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A01441808E7B60039709F /* Build configuration list for PBXNativeTarget "AccelerometerGravity" */;
+			buildPhases = (
+				689A01071808E7B60039709F /* Sources */,
+				689A01081808E7B60039709F /* Frameworks */,
+				689A01091808E7B60039709F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelerometerGravity;
+			productName = AccelerometerGravity;
+			productReference = 689A010B1808E7B60039709F /* AccelerometerGravity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689A01321808E7B60039709F /* AccelerometerGravityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A01471808E7B60039709F /* Build configuration list for PBXNativeTarget "AccelerometerGravityTests" */;
+			buildPhases = (
+				689A012F1808E7B60039709F /* Sources */,
+				689A01301808E7B60039709F /* Frameworks */,
+				689A01311808E7B60039709F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689A01391808E7B60039709F /* PBXTargetDependency */,
+			);
+			name = AccelerometerGravityTests;
+			productName = AccelerometerGravityTests;
+			productReference = 689A01331808E7B60039709F /* AccelerometerGravityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689A01031808E7B60039709F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Secret Lab";
+				TargetAttributes = {
+					689A01321808E7B60039709F = {
+						TestTargetID = 689A010A1808E7B60039709F;
+					};
+				};
+			};
+			buildConfigurationList = 689A01061808E7B60039709F /* Build configuration list for PBXProject "AccelerometerGravity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689A01021808E7B60039709F;
+			productRefGroup = 689A010C1808E7B60039709F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689A010A1808E7B60039709F /* AccelerometerGravity */,
+				689A01321808E7B60039709F /* AccelerometerGravityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689A01091808E7B60039709F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A011B1808E7B60039709F /* InfoPlist.strings in Resources */,
+				689A012E1808E7B60039709F /* Images.xcassets in Resources */,
+				689A012C1808E7B60039709F /* Spaceship.png in Resources */,
+				689A01241808E7B60039709F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A01311808E7B60039709F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A013F1808E7B60039709F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689A01071808E7B60039709F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A012A1808E7B60039709F /* PhysicsScene.m in Sources */,
+				689A01271808E7B60039709F /* ViewController.m in Sources */,
+				689A01211808E7B60039709F /* AppDelegate.m in Sources */,
+				689A011D1808E7B60039709F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A012F1808E7B60039709F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689A01411808E7B60039709F /* AccelerometerGravityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689A01391808E7B60039709F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689A010A1808E7B60039709F /* AccelerometerGravity */;
+			targetProxy = 689A01381808E7B60039709F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689A01191808E7B60039709F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A011A1808E7B60039709F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		689A01221808E7B60039709F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A01231808E7B60039709F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689A013D1808E7B60039709F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689A013E1808E7B60039709F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689A01421808E7B60039709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689A01431808E7B60039709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689A01451808E7B60039709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerGravity/AccelerometerGravity-Prefix.pch";
+				INFOPLIST_FILE = "AccelerometerGravity/AccelerometerGravity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		689A01461808E7B60039709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerGravity/AccelerometerGravity-Prefix.pch";
+				INFOPLIST_FILE = "AccelerometerGravity/AccelerometerGravity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		689A01481808E7B60039709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccelerometerGravity.app/AccelerometerGravity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerGravity/AccelerometerGravity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AccelerometerGravityTests/AccelerometerGravityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		689A01491808E7B60039709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccelerometerGravity.app/AccelerometerGravity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerGravity/AccelerometerGravity-Prefix.pch";
+				INFOPLIST_FILE = "AccelerometerGravityTests/AccelerometerGravityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689A01061808E7B60039709F /* Build configuration list for PBXProject "AccelerometerGravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A01421808E7B60039709F /* Debug */,
+				689A01431808E7B60039709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689A01441808E7B60039709F /* Build configuration list for PBXNativeTarget "AccelerometerGravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A01451808E7B60039709F /* Debug */,
+				689A01461808E7B60039709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689A01471808E7B60039709F /* Build configuration list for PBXNativeTarget "AccelerometerGravityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689A01481808E7B60039709F /* Debug */,
+				689A01491808E7B60039709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689A01031808E7B60039709F /* Project object */;
+}

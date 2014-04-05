@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03FB243D-F517-4806-9AD8-AD8D56870042</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Updating</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B530EEEF-8439-43B4-8A21-D80D9A80F52A</key>
+		<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samplecode/layingout/Updating/Updating.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B530EEEF-8439-43B4-8A21-D80D9A80F52A</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B530EEEF-8439-43B4-8A21-D80D9A80F52A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B530EEEF-8439-43B4-8A21-D80D9A80F52A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gamedevcookbook2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CFD954B-D42A-4323-9AE8-C4F2F3554F11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Car</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0A0E7C07-30F0-488C-B571-8FDA405EA20B</key>
+		<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samplecode/physics/Car/Car.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0A0E7C07-30F0-488C-B571-8FDA405EA20B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0A0E7C07-30F0-488C-B571-8FDA405EA20B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A0E7C07-30F0-488C-B571-8FDA405EA20B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gamedevcookbook2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

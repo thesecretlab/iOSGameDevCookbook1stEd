@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C681FC75-97D2-4CCC-B76E-60A0FC8EC8E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParallaxScrolling</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3E68FE6-DA63-4F06-8F4C-269241A36AB8</key>
+		<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samplecode/2dgraphics/ParallaxScrolling/ParallaxScrolling.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3E68FE6-DA63-4F06-8F4C-269241A36AB8</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://atlas-server.oreilly.com/git/1234000001594.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B3E68FE6-DA63-4F06-8F4C-269241A36AB8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3E68FE6-DA63-4F06-8F4C-269241A36AB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gamedevcookbook2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
